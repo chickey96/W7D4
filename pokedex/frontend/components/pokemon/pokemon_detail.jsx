@@ -4,7 +4,6 @@ import React from 'react';
 class PokemonDetail extends React.Component {
 
     componentDidMount() {
-        debugger;
         this.props.requestSinglePokemon(this.props.match.params.pokemonId);
     }
 
@@ -15,7 +14,6 @@ class PokemonDetail extends React.Component {
     }
 
     render() {
-        debugger;
         const pokemon = this.props.pokemon;
         const items = this.props.items;
         if(pokemon === undefined){

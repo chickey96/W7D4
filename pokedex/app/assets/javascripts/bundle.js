@@ -179,7 +179,6 @@ function (_React$Component) {
   _createClass(PokemonDetail, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      debugger;
       this.props.requestSinglePokemon(this.props.match.params.pokemonId);
     }
   }, {
@@ -192,7 +191,6 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      debugger;
       var pokemon = this.props.pokemon;
       var items = this.props.items;
 
